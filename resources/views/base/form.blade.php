@@ -4,7 +4,9 @@
             <div class="col-sm-9 col-sm-offset-3">
                 {{-- <div id="imaginary_container" class="col-md-12"> --}}
                 <div class="col-md-8">
+                    <a href="/">
                     <img src="uploads/images/logo.png" alt="" width="350px" height="100px">
+                    </a>
                     <br><br>
                     <form action="solr/api/get/base" method="GET" accept-charset="utf-8" autocomplete="off">
                         <input type="hidden" name="_token" value="{{csrf_token()}}" />
